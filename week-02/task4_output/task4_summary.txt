@@ -1,0 +1,13 @@
+Task 4: Multi-image object detection and video creation
+Model: yolo11n.pt
+Input directory: C:\Users\NISHCHAL\OneDrive\Desktop\IIIT-HYD INTERNSHIP\week-01\frames
+Images processed: 4
+Annotated frames directory: C:\Users\NISHCHAL\OneDrive\Desktop\IIIT-HYD INTERNSHIP\week-02\task4_output\annotated_frames
+Final video: C:\Users\NISHCHAL\OneDrive\Desktop\IIIT-HYD INTERNSHIP\week-02\task4_output\annotated_video_with_music.mp4
+Background music added: yes
+
+Per-image detections:
+- frame_01.jpg: person:0.930
+- frame_02.jpg: person:0.900, elephant:0.291
+- frame_03.jpg: person:0.877, elephant:0.430
+- frame_04.jpg: person:0.892, elephant:0.305
