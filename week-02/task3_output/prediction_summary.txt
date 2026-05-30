@@ -1,0 +1,4 @@
+Model: yolo11n.pt
+Input: C:\Users\NISHCHAL\OneDrive\Desktop\IIIT-HYD INTERNSHIP\week-01\frames\frame_01.jpg
+Total detections: 1
+- person: 0.9295
