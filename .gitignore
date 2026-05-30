@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+yolo11n.pt
+.git.bak/
+.temp_friend_repo/
+.temp_git_push/
+.compare_repo_trees.py
+.check_week_structure.py
+.list_week_contents.py
+compare_output.txt
+compare_output_terminal.txt
+compare_output_utf8.txt
+week_contents.txt
