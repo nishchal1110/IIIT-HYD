@@ -4,7 +4,8 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 yolo11n.pt
-.git.bak/
+
+.git_bak/
 .temp_friend_repo/
 .temp_git_push/
 .compare_repo_trees.py
