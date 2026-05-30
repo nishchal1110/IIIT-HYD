@@ -9,6 +9,5 @@ if (!(Test-Path $OutputDir)) { New-Item -ItemType Directory -Path $OutputDir -Fo
 Get-ChildItem -Path $InputDir -Recurse -Include *.jpg,*.jpeg,*.png | ForEach-Object {
   $rel = $_.FullName
   $outPath = Join-Path $OutputDir $_.Name
-  $vf = "scale=${Width}:-1"
-  & ffmpeg -hide_banner -loglevel error -y -i "$rel" -vf $vf "$outPath"
+  ffmpeg -hide_banner -loglevel error -y -i $rel -vf "scale=$Width:-1" $outPath
 }

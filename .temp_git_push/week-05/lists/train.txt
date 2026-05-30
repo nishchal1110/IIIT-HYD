@@ -1,1 +1,0 @@
-images/train/img_train.jpg

@@ -1,4 +1,4 @@
-# YOLO dataset YAML (copied from template)
+# YOLO dataset YAML template
 train: images/train
 val: images/val
 test: images/test
